@@ -1,17 +1,2 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-int main() {
-  int sz = 0x30;
-  char *buf = (char *)malloc(sizeof(char) * sz);
-  puts("Hello World!");
-  printf("Education + Hack = ?\\n");
-  fgets(buf, sz, stdin);
-  if (!strncmp(buf, "DreamHack", 9))
-    printf("Welcome Hackers :)\\n");
-  else
-    printf("No No :/n");
-  return 0;
-}
-
-이것부터 풀자.
+우선 기본적인 지식 검증 문제를 풀었다...!
+행복캄
